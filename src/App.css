@@ -1,0 +1,38 @@
+.App-header {
+  background-color: #222;
+  height: 75px;
+  padding: 20px;
+  color: #FFF;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#component-list {
+  flex-grow: 1;
+  width: 20%;
+  background-color: #EEE;
+  margin-right: 20px;
+}
+
+#component-list ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+#container {
+  flex-grow: 1;
+  width: 70%;
+}
+
+a {
+  color: #123;
+}

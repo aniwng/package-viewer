@@ -1,0 +1,12 @@
+.project-versions {
+    float: left;
+}
+
+small {
+    font-size: 0.5em;
+    margin: 0 10px;
+}
+
+table td {
+    min-width: 200px;
+}
